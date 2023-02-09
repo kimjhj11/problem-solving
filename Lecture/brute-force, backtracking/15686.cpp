@@ -23,7 +23,7 @@ int main(){
     ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-    // ÀÔ·Â
+    // ìž…ë ¥
     cin >> n >> m;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
@@ -33,10 +33,10 @@ int main(){
         }
     }
 
-    // Á¶ÇÕ
+    // ì¡°í•©
     combi(-1, v);
 
-    // °è»ê ¹× Ãâ·Â
+    // ê³„ì‚° ë° ì¶œë ¥
     for(vector<int> kfcs : kfcCombi){
         ret = 0;
         for(pair<int,int> i : house){
@@ -54,6 +54,6 @@ int main(){
     return 0;
 }
 
-// 15686_Ä¡Å²¹è´Þ
+// 15686_ì¹˜í‚¨ë°°ë‹¬
 // bruteforce
 // back-tracking

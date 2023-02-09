@@ -53,6 +53,6 @@ int main(){
     return 0;
 }
 
-// 2589_º¸¹°¼¶
+// 2589_ë³´ë¬¼ì„¬
 // brute-force
 // bfs
